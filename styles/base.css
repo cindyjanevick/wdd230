@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: "Acme", verdana;
+    font-weight:400;
+    background-color: #f9dbbd;
+    min-width: 354px;
+    min-height: 100%;
+}
+
+header {
+    background-color: #450920;
+    color: white;
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#profile {
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px black;
+}
+
+header h1 {
+    padding: 15px;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #a53860;
+    border: 2px solid black;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #ffa5ab;
+    border: 1px solid black;
+}
+
+.active {
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+main {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1,
+.card {
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: medium;
+    border-bottom: 1px solid black;
+}
+
+.card {
+    border: 1px solid #ffa5ab;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px #450920;
+    background-color: white;
+    box-shadow: 5px 5px 10px #450920;
+}
+
+.card h2 {
+    background-color: #ffa5ab;
+    text-align: center;
+    font-size: large;
+    padding: 3px;
+}
+
+.card ul {
+    padding: 10px;
+}
+
+footer {
+    background-color: #450920;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: smaller;
+}
+
+#lastModified {
+    font-size: x-small;
+    color: #f9dbbd;
+    padding-top: 2px;
+    font-weight: 300;
+}
